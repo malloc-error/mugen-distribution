@@ -17,7 +17,7 @@ MUGEN controls the location of the hero directly within the JavaScript engine, b
 Some additional enhancements can be enabled through initialization settings (see below), such as responsive resizing for a variety of screens, and an autoplay mode.
 
 ## Applications and intended learning outcomes
-Depending on how the MUGEN-based project is structured and how deeply it is pursued, this library could be a useful tool to teach topics such as:
+Depending on how your MUGEN-powered project is structured and how deeply it is pursued, this library could be a useful tool to teach topics such as:
 * web design/front-end development with HTML and CSS
 * using, configuring, and understanding the documentation of 3rd party libraries
 * character design, illustration, and animation
