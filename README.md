@@ -13,6 +13,9 @@ It responds to user clicks/taps to support the following actions by the hero:
 * attacking
 
 MUGEN controls the location of the hero directly within the JavaScript engine, but the rest of the hero's visual styling, along with that of the monster, can be set with a typical CSS file. The engine simply adds or removes the corresponding class from each element according to user actions. Thus, coders with even basic CSS knowledge can take advantage of its full range of features, such as transitions, keyframes, and sprite-based animations, to quickly bring their visual designs to life.
+
+Some additional enhancements can be enabled through initialization settings (see below), such as responsive resizing for a variety of screens, and an autoplay mode.
+
 ## Applications and intended learning outcomes
 Depending on how the MUGEN-based project is structured and how deeply it is pursued, this library could be a useful tool to teach topics such as:
 * web design/front-end development with HTML and CSS
