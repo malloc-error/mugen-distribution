@@ -76,11 +76,11 @@ The following is a complete list of available settings:
 These guidelines will help get the best results while avoiding technical headaches:
 * use png format, with a transparent background
 * sprite sheets can be as many frames as desired
-* remember to set the `steps()` number of the animation-timing-function in the CSS to the number of keyframes in your animation
-  * e.g. if a sprite sheet has 4 frames (not counting the required blank frame at the end), use `animation-timing-function: steps(4);`
-* each frame should be arranged from left to right
+* frames should be arranged from left to right on each sprite sheet
 * each frame should be a square
 * each sprite sheet should end with one blank full frame
-    * this, due to an interaction between the way CSS handles percentages in background-position and the desire to keep the hero and monster as readily resizable/responsive as possible by using percentages
+    * necessary due to an interaction between the way CSS handles percentages in background-position and the desire to keep the hero and monster as readily resizable/responsive as possible by using percentages
 * example: a sprite sheet with 4 keyframes might be exported as a single png image, where each frame is 200x200px, for a total of 1000px wide and 200px tall (4 keyframes plus 1 blank totally 5 frames at 200px wide each)
-* see the demo files for examples of properly formatted sprites
+* remember to set the `steps()` number of the animation-timing-function in the CSS to the number of keyframes in your animation
+  * e.g. if a sprite sheet has 4 frames (not counting the required blank frame at the end), use `animation-timing-function: steps(4);`
+* see the demo files for examples of properly formatted sprites and CSS files
