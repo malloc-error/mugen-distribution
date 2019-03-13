@@ -76,6 +76,8 @@ The following is a complete list of available settings:
 These guidelines will help get the best results while avoiding technical headaches:
 * use png format, with a transparent background
 * sprite sheets can be as many frames as desired
+* remember to set the `steps()` number of the animation-timing-function in the CSS to the number of keyframes in your animation
+  * e.g. if a sprite sheet has 4 frames (not counting the required blank frame at the end), use `animation-timing-function: steps(4)`
 * each frame should be arranged from left to right
 * each frame should be a square
 * each sprite sheet should end with one blank full frame
