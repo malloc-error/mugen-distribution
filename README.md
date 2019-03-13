@@ -1,5 +1,7 @@
 # MUGEN (Mini UnGame ENgine): A JavaScript library for creative coding and animation instruction
 The MUGEN library is an extremely simple "ungame" engine. It handles basic user interactions and applies CSS classes and styling to HTML elements representing hero and monster characters to create a small, single-page game-like experience on the web. It is not meant for professional game development, but is instead a pedagogical tool for teaching beginner-to-intermediate coding in the context of an art/design/creative technology course.
+## Live Demo
+View the live demo at [malloc-error.github.io/mugen](https://malloc-error.github.io/mugen/)
 ## Features
 MUGEN displays three types of visual elements:
 * background
