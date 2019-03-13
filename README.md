@@ -22,7 +22,7 @@ Depending on how your MUGEN-powered project is structured and how deeply it is p
 * using, configuring, and understanding the documentation of 3rd party libraries
 * character design, illustration, and animation
 
-MUGEN can also fit into a variety of timeframes, from one-day workshops to longer design projects.
+MUGEN can be applied to projects covering a range of timeframes, from one-day workshops to longer design briefs.
 ## Included files
 * `mugen.min.js` the library itself 
 * `/demo/`directory containing a functioning demonstration powered by MUGEN:
