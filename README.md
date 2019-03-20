@@ -37,7 +37,9 @@ MUGEN can be applied to projects covering a range of timeframes, from one-day wo
     * `.hero.attacking` appearance of the hero when performing an attack
     * `.hero.left` appearance of the hero when facing left, with right being considered the default (note: this class may be applied in the walking, jumping, or attacking states)
     * `.monster` appearance and motion of the monster
+    * `.monster.was-hit` appearance and motion of the monster after being hit by hero
     * `.instructions` appearance of a short instruction text blurb that displays when the page first loads
+    * `.score` appearance of score indicator
   * `script.js` a short JavaScript file that instantiates and initializes the MUGEN library
   * `img/` a directory containing all the images and sprite sheets required for the background, hero, and monster
 ## Getting started
