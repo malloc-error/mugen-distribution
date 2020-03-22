@@ -64,7 +64,7 @@ MUGEN's operation can be customized with certain settings, passed as an object i
 The following example shows how more than one setting can be passed into the initialization function:
 ```
   var mugen = new MUGEN();
-  mugen.initialize({ actionDuration: 600, jumpHeight: 220, npcSpeed: 550 });
+  mugen.initialize({ actionDuration: 600, jumpHeight: 220, npcSpeed: 550, makeResponsive:true });
 ```
 The following is a complete list of available settings:
 * `titleScreenImageURL` (string in quotes) url for an image to be used as title screen (optional)
