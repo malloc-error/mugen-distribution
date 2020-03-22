@@ -78,6 +78,8 @@ The following is a complete list of available settings:
 * `npcMoveToX` (number) how far across the screen the NPC will attempt to move, in pixels (default is all the way across)
 * `maxSimultaneousNPCs` (number) maximum number of NPCs that will appear at once (default is 10)
 * `pointsPerNPCInteracted` (number) how many points are added to the score for each NPC gets touched by the special action
+* `removeNPCAfterInteracted` (boolean) when true, NPC gets removed after being touched by the special action (default is true)
+* `removeNPCAfterInteractedDelay` (number) how long after being "hit" to wait before removing NPC, in milliseconds (default is 500ms)
 * `makeResponsive` (boolean) when set to true, MUGEN will attempt to resize the page to fit on smaller screens **note: this feature is experimental and potentially buggy**
 * `autoPlay` (boolean) when set to true, MUGEN will make the hero move, jump, and do the special action automatically instead of waiting for user input
 
