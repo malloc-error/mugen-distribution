@@ -68,12 +68,16 @@ The following example shows how more than one setting can be passed into the ini
 ```
 The following is a complete list of available settings:
 * `titleScreenImageURL` (string in quotes) url for an image to be used as title screen (optional)
+* `preGameScreenImageURLs` (array of string(s) in quotes) url(s) for one or more images to be displayed before game start; advance to next pre-game screen or game start when user clicks anywhere on screen (optional)
+* `postGameScreenImageURLs` (array of string(s) in quotes) url(s) for one or more images to be displayed after game-end score is reached (see below); advance to next post-game screen when user clicks anywhere on screen (optional)
+* `playUntilScore` (number) how many points to play until, as scored by interacting with NPCs (default no limit)
 * `heroSpeed` (number) how fast the hero moves when walking, in pixels per second
 * `jumpHeight` (number) how high the hero jumps, in pixels
 * `actionDuration` (number) duration of the hero's special action animation, in milliseconds **note: this should match the setting in the CSS file**)
 * `actionRadius` (number) how far out the hero's special action reaches to "hit" an NPC, in pixels (from center of hero div)
 * `npcCollisionRadius` (number) how far out from the center of the NPC div its body extends and can be "hit," in pixels
 * `npcSpeed` (number) how fast the NPC moves, in pixels per second
+* `typesOfNPC` (number) how many NPC types to create (default 1); note: each npc will get both the `.npc` and the `.npc-type-n` classes, where n is a number between 0 and the number of NPC types minus one
 * `timeBetweenNPCs` (number) length of time between new NPC spawns, in milliseconds
 * `npcMoveToX` (number) how far across the screen the NPC will attempt to move, in pixels (default is all the way across)
 * `maxSimultaneousNPCs` (number) maximum number of NPCs that will appear at once (default is 10)
