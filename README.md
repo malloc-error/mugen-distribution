@@ -77,7 +77,7 @@ The following is a complete list of available settings:
 * `actionRadius` (number) how far out the hero's special action reaches to "hit" an NPC, in pixels (from center of hero div)
 * `npcCollisionRadius` (number) how far out from the center of the NPC div its body extends and can be "hit," in pixels
 * `npcSpeed` (number) how fast the NPC moves, in pixels per second
-* `typesOfNPC` (number) how many NPC types to create (default 1); note: each npc will get both the `.npc` and the `.npc-type-n` classes, where n is a number between 0 and the number of NPC types minus one
+* `typesOfNPC` (number) how many NPC types to create (default 1) **note: each npc will get both the `.npc` and the `.npc-type-n` classes, where `n` is a number between 0 and the number of NPC types minus one**
 * `timeBetweenNPCs` (number) length of time between new NPC spawns, in milliseconds
 * `npcMoveToX` (number) how far across the screen the NPC will attempt to move, in pixels (default is all the way across)
 * `maxSimultaneousNPCs` (number) maximum number of NPCs that will appear at once (default is 10)
